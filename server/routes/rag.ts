@@ -4,7 +4,7 @@ import { zValidator } from "@hono/zod-validator";
 import { getUser } from "../kinde";
 
 // Base RAG service URL
-const RAG_SERVICE_URL = "http://127.0.0.1:8000";
+const RAG_SERVICE_URL = "https://topicmarker-rag.onrender.com";
 
 // Schema for topic search
 const searchTopicsSchema = z.object({
